@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Nunito;
+    background-color: #f0cf85;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: #e6a157;
+}
+
+header h1 {
+    font-family: Brush Script MT;
+    font-size: 150px;
+    font-weight: 100;
+    margin-bottom: -30px !important;
+    margin-top: 0px;
+    text-decoration: wavy;
+}
+
+main{
+    width: 100%;
+    padding: 1.5em;
+}
+
+.input-container {
+    padding-top: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.things {
+    text-align: center;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Nunito;
+}
+
+#myInput {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 2em;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 44%;
+    height: 25px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 3px #333333;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.addBtn {
+    padding: 1rem;
+    width: 6%;
+    height: 25px;
+    margin-left: 0;
+    margin-right: auto;
+    background: #e6a157;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px #333333;
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.addBtn:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+#myGoal {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 52%;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 3px #333333;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 35px;
+    text-align: center;
+}
+  
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 15px 0px 15px 0px;
+    list-style-type: none;
+    background: #e6a157;
+    font-size: 1.5rem;
+    transition: 0.2s;
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+  
+ul li.checked {
+    background: #888;
+    border: 1px solid black;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 20px;
+    left: 20px;
+    font-weight: bolder;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 11px 20px;
+    font-size: 30px;
+}
+  
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    background-color: #f0cf85;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#goaltitle {
+    margin: 0;
+    padding: 0;
+}
+
+#main-goal-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
